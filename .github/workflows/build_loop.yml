@@ -32,6 +32,10 @@ jobs:
       # Customize Loop: Download and apply patches
       - name: Customize Loop
         run: | 
+     
+          # Submodule Loop patches:
+          # Loop: LoopCoreConstants.swift: Modify absorption times to 30 min, 2 hr, 3hr
+          curl https://github.com/bedtime4bonzos/Loop/commit/c35e43fd330b4ec60f4270fd8e8fd1a6141e9c1d.patch | git apply -v --directory=Loop
 
           # The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
