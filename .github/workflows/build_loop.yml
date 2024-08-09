@@ -291,9 +291,10 @@ jobs:
           override_sens \
           now_line \
           watch_title \
-          meal_week \
+          meal_days \
           2002 \
           basal_lock
+          # meal_week          
           # live_activity
           # high_carb_limit
           # no_auth
