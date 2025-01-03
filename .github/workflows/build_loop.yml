@@ -293,9 +293,9 @@ jobs:
           watch_title \
           meal_days \
           2002 \
-          basal_lock
+          basal_lock \
+          live_activity
           # meal_week          
-          # live_activity
           # high_carb_limit
           # no_auth
           # 2hlollipop
