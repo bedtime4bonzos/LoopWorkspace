@@ -267,7 +267,10 @@ jobs:
           #
           # Loop: NotificationManager.swift: Commented lines to suppress notifications from appearing on Looper's phone
           curl https://github.com/bedtime4bonzos/Loop/commit/446d999e07a34ee3bca3d8d2ea929217a480438d.patch | git apply --directory=Loop -v --whitespace=fix
-          
+
+          # LoopKit: Re-purposed Apidra for Fiasp/Novolog Mix
+          curl https://github.com/bedtime4bonzos/LoopKit/commit/b2b3bd9be9a655d4e76fc85101e87353b6a3b171.patch | git apply --directory=LoopKit -v --whitespace=fix
+
           # Submodule LoopKit patches:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
